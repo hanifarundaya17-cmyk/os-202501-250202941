@@ -126,7 +126,7 @@ git push origin main
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/1.png) 
+[Screenshot hasil](screenshots/1.png) 
 [Screenshot hasil](screenshots/2.png)
 [Screenshot hasil](screenshots/3.png)
 ---
