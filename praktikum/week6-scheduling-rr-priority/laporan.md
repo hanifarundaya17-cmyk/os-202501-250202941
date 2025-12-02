@@ -68,9 +68,9 @@ git push origin main
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/week6.jpg)
-![Screenshot hasil](screenshots/week6%202.jpg)
-![Screenshot hasil](screenshots/week6%203.jpg)
+![Screenshot hasil](screenshots/Cuplikan%20layar%202025-12-02%20105743.png)
+![Screenshot hasil](screenshots/Cuplikan%20layar%202025-12-02%20110251.png)
+
 
 
 ---
