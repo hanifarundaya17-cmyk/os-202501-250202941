@@ -24,7 +24,11 @@ Tuliskan tujuan praktikum minggu ini.
 
 ## Dasar Teori
 Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
-
+1. Metrik Kinerja UtamaWaktu Penyelesaian Waktu proses berada dalam sistem (Selesai - Kedatangan).Waktu Tunggu : Total waktu proses menghabiskan di antrian siap.
+2. Pengaruh Keadilan vs. EfisiensiRound Robin (RR): Tinggi keadilan  karena setiap proses mendapat giliran yang sama (time quantum). Mengorbankan sedikit efisiensi karena overhead context switch.Priority Scheduling (PS): Tinggi efisiensi dalam menyelesaikan tugas kritis (prioritas tinggi) lebih cepat. Mengorbankan keadilan dan berisiko menyebabkan starvation (kelaparan) pada proses prioritas rendah.
+3. Pengaruh Time Quantum
+Kecil: Baik untuk keadilan dan respons cepat, tapi buruk untuk throughput (banyak overhead).
+Besar: Baik untuk efisiensi (kurang overhead), tapi buruk untuk keadilan dan waktu respons (mirip FCFS).
 ---
 
 ## Langkah Praktikum
@@ -64,7 +68,10 @@ git push origin main
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
+![Screenshot hasil](screenshots/week6.jpg)
+![Screenshot hasil](screenshots/week6%202.jpg)
+![Screenshot hasil](screenshots/week6%203.jpg)
+
 
 ---
 
@@ -77,16 +84,21 @@ Sertakan screenshot hasil percobaan atau diagram:
 
 ## Kesimpulan
 Tuliskan 2–3 poin kesimpulan dari praktikum ini.
+1. RR (Round Robin) unggul dalam keadilan dan responsivitas karena membagi waktu CPU secara merata menggunakan time quantum.
+2. PS (Priority Scheduling) unggul dalam efisiensi menyelesaikan tugas kritis (prioritas tinggi) tetapi mengorbankan keadilan dan berisiko menyebabkan starvation.
+3. Pilihan antara keduanya adalah trade-off: RR untuk keadilan, PS untuk urgensi/efisiensi tugas tertentu.
 
 ---
 
 ## Quiz
 1. Apa perbedaan utama antara Round Robin dan Priority Scheduling?   
-   **Jawaban:**  
+   Round Robin  fokus pada kewajaran  dengan membagi waktu CPU menjadi irisan-irisan yang sama time quantum. Semua proses mendapat giliran.Priority Scheduling fokus pada kepentingan dengan memberikan CPU terlebih dahulu kepada proses yang memiliki prioritas tertinggi. 
 2. Apa pengaruh besar/kecilnya *time quantum* terhadap performa sistem?   
-   **Jawaban:**  
+   Time Quantum Kecil: Menyebabkan overhead tinggi (sering context switch), sehingga menurunkan efisiensi (throughput).Time Quantum Besar: Menyebabkan waktu respons buruk (sistem menjadi mirip FCFS), sehingga mengurangi kewajaran ($\text{fairness}$).
 3. Mengapa algoritma Priority dapat menyebabkan *starvation*? 
-   **Jawaban:**  
+   Penyebab Utama: CPU selalu memilih proses dengan prioritas tertinggi.
+   Mekanisme Starvation: Jika proses berprioritas tinggi terus berdatangan secara berulang, proses berprioritas rendah akan terus tertunda dan tidak pernah mendapat kesempatan untuk dieksekusi, berapapun lama waktu tunggunya.
+   Solusi: Teknik Aging (penuaan), di mana prioritas proses yang menunggu lama akan ditingkatkan secara berkala, digunakan untuk mencegah starvation.
 
 ---
 
