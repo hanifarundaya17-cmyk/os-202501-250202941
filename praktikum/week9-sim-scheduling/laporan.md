@@ -157,7 +157,9 @@ FCFS (First-Come, First-Served) adalah yang paling mudah karena logikanya hanya 
 ## Refleksi Diri
 Tuliskan secara singkat:
 - Apa bagian yang paling menantang minggu ini?  
+laptop sering terpakai oleh kakak sehingga mengumpulkan tugas telat
 - Bagaimana cara Anda mengatasinya?  
+beli laptop
 
 ---
 
