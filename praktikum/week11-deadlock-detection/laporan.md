@@ -138,7 +138,7 @@ if __name__ == "__main__":
         print("Tidak terjadi deadlock.")
 
 ```
-
+```
 ---
 
 ## Hasil Eksekusi
