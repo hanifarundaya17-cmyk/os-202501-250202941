@@ -105,7 +105,7 @@ if __name__ == "__main__":
     print(f"LRU Page Faults  : {lru_faults}")
 
 ```
-
+```
 ---
 
 ## Hasil Eksekusi
