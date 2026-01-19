@@ -38,14 +38,12 @@ Praktikum ini berupa simulasi yang dijalankan dengan sistem operasi windows meng
 ---
 ## Hasil (Results)
 1. Dataset uji
-| Proses | Allocation | Request |
-| :----: | :--------: | :-----: |
-|   P1   |     R1     |    R2   |
-|   P2   |     R2     |    R3   |
-|   P3   |     R3     |    R1   |
-|   P4   |     R4     |    –    |
-
-
+    | Proses | Allocation | Request |
+   |:--:|:--:|:--:|
+   | P1 | R1 | R2 |
+   | P2 | R2 | R3 |
+   | P3 | R3 | R1 |
+   | P4 | R4 | - |
 
     Keterangan:
 - Process      : Menunjukkan identitas atau nama proses yang sedang berjalan di dalam sistem operasi (misalnya P1, P2, P3).
