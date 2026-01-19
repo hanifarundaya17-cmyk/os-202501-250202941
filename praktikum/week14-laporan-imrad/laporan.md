@@ -45,6 +45,8 @@ Praktikum ini berupa simulasi yang dijalankan dengan sistem operasi windows meng
 |   P3   |     R3     |    R1   |
 |   P4   |     R4     |    –    |
 
+
+
     Keterangan:
 - Process      : Menunjukkan identitas atau nama proses yang sedang berjalan di dalam sistem operasi (misalnya P1, P2, P3).
 - Allocation   : Menunjukkan resource yang sedang dialokasikan atau dipegang oleh suatu proses pada saat tertentu.
