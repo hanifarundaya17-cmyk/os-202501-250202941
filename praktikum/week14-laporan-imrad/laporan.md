@@ -83,3 +83,11 @@ Berdasarkan hasil praktikum, dapat disimpulkan bahwa algoritma deteksi deadlock 
 1. Silberschatz, A., Galvin, P. B., & Gagne, G. Operating System Concepts.
 2. Tanenbaum, A. S. Modern Operating Systems.
 3. OSTEP – Deadlock Detection.
+---
+### Quiz
+1. Mengapa format IMRAD membantu membuat laporan praktikum lebih ilmiah dan mudah dievaluasi?
+Karena IMRAD menyusun laporan secara sistematis mulai dari latar belakang, metode, hasil, hingga analisis, sehingga mudah dipahami dan direplikasi.
+2. Apa perbedaan antara bagian Hasil dan Pembahasan?
+Hasil berisi data atau temuan eksperimen, sedangkan Pembahasan berisi interpretasi dan analisis dari hasil tersebut.
+3. Mengapa sitasi dan daftar pustaka penting, bahkan untuk laporan praktikum?
+Karena menunjukkan dasar teori yang digunakan dan menghindari plagiarisme.
